@@ -1,0 +1,26 @@
+version: 1
+backend:
+  phases:
+    build:
+      commands:
+        - '# Execute Amplify CLI with the helper script'
+        - amplifyPush --simple
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - yarn install
+    build:
+      commands:
+        - echo "REACT_APP_API_URL=$REACT_APP_API_URL" >> .env
+        - echo "REACT_APP_PUBLIC_FILES_URL=$REACT_APP_PUBLIC_FILES_URL" >> .env
+        - echo "REACT_APP_SUPPORT_EMAIL_ADDRESS=$REACT_APP_SUPPORT_EMAIL_ADDRESS" >> .env
+        - echo "REACT_APP_MANUAL_URL=$REACT_APP_MANUAL_URL" >> .env
+        - yarn run build
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*

@@ -1,0 +1,33 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wareomofufront-prod-91320-authRole",
+      "UnauthRoleArn": "arn:aws:iam::485808461383:role/amplify-wareomofufront-prod-91320-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::485808461383:role/amplify-wareomofufront-prod-91320-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-wareomofufront-prod-91320-deployment",
+      "UnauthRoleName": "amplify-wareomofufront-prod-91320-unauthRole",
+      "StackName": "amplify-wareomofufront-prod-91320",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:485808461383:stack/amplify-wareomofufront-prod-91320/68ef24b0-1dc1-11ed-9a42-0aa19aacead7",
+      "AmplifyAppId": "d16s6ribg5ju0p"
+    }
+  },
+  "production": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wareomofufront-production-93808-authRole",
+      "UnauthRoleArn": "arn:aws:iam::485808461383:role/amplify-wareomofufront-production-93808-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::485808461383:role/amplify-wareomofufront-production-93808-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-wareomofufront-production-93808-deployment",
+      "UnauthRoleName": "amplify-wareomofufront-production-93808-unauthRole",
+      "StackName": "amplify-wareomofufront-production-93808",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:485808461383:stack/amplify-wareomofufront-production-93808/df58fce0-1dc4-11ed-8c47-0e65a22044f3",
+      "AmplifyAppId": "d3w14aaeqj4jia"
+    },
+    "categories": {
+      "auth": {
+        "wareomofufront09e5899e": {}
+      }
+    }
+  }
+}

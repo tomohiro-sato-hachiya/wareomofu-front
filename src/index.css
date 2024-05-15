@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+#root {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.base-style,
+.base-style * {
+  text-transform: none !important;
+  flex: 1;
+}
+
+#logo {
+  margin: 5vh 0 0;
+  background-color: white;
+}
+
+#menu-list {
+  margin: auto 0;
+}
+
+#hello {
+  margin: 0 auto;
+}
+
+#content {
+  max-width: 85%;
+  margin: 5vh auto 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.multi-line {
+  white-space: pre-line;
+}
+
+.center-area {
+  text-align: center;
+}
+
+.right-area {
+  text-align: right;
+}
+
+.left-area {
+  text-align: left;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.link-button-area a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.menus * {
+  width: 100%;
+}
+
+.search-form {
+  margin: 0 auto;
+  border: 1px gray dashed;
+  padding: 1vw;
+  max-width: 35rem;
+  border-radius: 0.75em;
+}
+
+.search-form * {
+  max-width: 90%;
+}
+
+.search-form button {
+  margin-top: 3vh;
+}
+
+.search-form .right-area {
+  margin: auto 0 auto auto;
+}
+
+.text-form {
+  width: 70%;
+}
+
+.text-area {
+  width: 70%;
+  min-height: 10rem;
+}
+
+.create-area {
+  min-width: 70%;
+  margin: 0 auto;
+}
+
+.report-area {
+  width: 35rem;
+}
+
+.report-area * {
+  margin: 0 auto;
+}
+
+.create-area .text-area,
+.text-form {
+  width: 100%;
+}
+
+.report-area .text-area,
+.text-form {
+  width: 90%;
+}
+
+.warning-message {
+  background-color: red;
+  color: white;
+  border-radius: 0.75em;
+}
+
+#password-area * {
+  margin-bottom: 1vh;
+}
+
+.advertisement {
+  width: 100%;
+}
+.advertisement * {
+  max-width: 100%;
+}
+
+footer {
+  margin: 5vh auto 1vh;
+}
+
+footer img {
+  max-width: 80%;
+  max-height: 10%;
+}
+
+.indicator-area {
+  width: 100vw;
+  height: 100vh;
+  z-index: 3000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  opacity: 0.7;
+}
+
+.indicator {
+  margin: 50vh auto;
+  text-align: center;
+  max-width: 80%;
+}
